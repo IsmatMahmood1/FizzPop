@@ -6,6 +6,8 @@ for (let i=1;i<50;i++){
         console.log("Fizz");
     else if (i%3 ===0)
         console.log("Pop")
+    else if (i%2===0)
+        console.log("Hop")
     else
         console.log(i);
     }
